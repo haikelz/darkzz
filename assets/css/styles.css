@@ -1,18 +1,18 @@
-/*===== GOOGLE FONTS =====*/
+/*===== Google Font =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-/*===== VARIABLES CSS =====*/
+/*===== CSS Variables =====*/
 :root{
   --header-height: 3rem;
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Poppin =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margin =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -45,7 +45,7 @@
   --z-fixed: 100;
 }
 
-/*===== BASE =====*/
+/*===== Base =====*/
 *,::before,::after{
   box-sizing: border-box;
 }
@@ -76,7 +76,7 @@ img{
   display: block;
 }
 
-/*===== CLASS CSS ===== */
+/*===== CSS Class ===== */
 .section-title{
   position: relative;
   font-size: var(--h2-font-size);
@@ -101,7 +101,7 @@ img{
   padding-bottom: 2rem;
 }
 
-/*===== LAYOUT =====*/
+/*===== Layout =====*/
 .bd-grid{
   max-width: 1024px;
   display: grid;
@@ -121,7 +121,7 @@ img{
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
-/*===== NAV =====*/
+/*===== Navbar =====*/
 .nav{
   height: var(--header-height);
   display: flex;
@@ -185,7 +185,7 @@ img{
   right: 0;
 }
 
-/*===== HOME =====*/
+/*===== Home =====*/
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
@@ -220,7 +220,7 @@ img{
   width: 295px;
 }
 
-/*BUTTONS*/
+/*Buttons*/
 .button{
   display: inline-block;
   background-color: var(--first-color);
@@ -233,7 +233,7 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
-/* ===== ABOUT =====*/
+/* ===== About =====*/
 .about__container{
   row-gap: 2rem;
   text-align: center;
@@ -249,7 +249,7 @@ img{
   border-radius: .5rem;
 }
 
-/* ===== SKILLS =====*/
+/* ===== Skills=====*/
 .skills__container{
   row-gap: 2rem;
   text-align: center;
@@ -325,9 +325,7 @@ img{
   transform: scale(1.1);
 }
 
-/* ===== CONTACT =====*/
-
-/* ===== FOOTER =====*/
+/* ===== Footer =====*/
 .footer{
   background-color: var(--second-color);
   color: #fff;
@@ -348,7 +346,7 @@ img{
   margin: 0 var(--mb-2)
 }
 
-/* ===== MEDIA QUERIES=====*/
+/* ===== Media Queries=====*/
 @media screen and (min-width: 768px){
   body{
     margin: 0;
