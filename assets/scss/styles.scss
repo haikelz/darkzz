@@ -1,7 +1,7 @@
-/*===== GOOGLE FONTS =====*/
+/*===== Google Fonts =====*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-/*===== VARIABLES CSS =====*/
+/*===== CSS Variables =====*/
 :root{
     --header-height: 3rem;
     --font-semi: 600;
@@ -13,7 +13,7 @@
     --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== T =====*/
 :root{
     --body-font: 'Poppins', sans-serif;
 
@@ -28,7 +28,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== Margin =====*/
 :root{
     --mb-1: 0.5rem;
     --mb-2: 1rem;
@@ -46,7 +46,7 @@
     --z-fixed: 100;
 }
 
-/*===== BASE =====*/
+/*===== Base =====*/
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -76,7 +76,7 @@ img{
     display: block; // borra los espacios en blanco
 }
 
-/*===== CLASS CSS ===== */
+/*===== CSS Class ===== */
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
@@ -102,7 +102,7 @@ img{
     padding-bottom: 2rem;
 }
 
-/*===== LAYOUT =====*/
+/*===== Layout =====*/
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -122,7 +122,7 @@ img{
     box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
-/*===== NAV =====*/
+/*===== Navbar =====*/
 .nav{
     height: var(--header-height);
     display: flex;
@@ -188,7 +188,7 @@ img{
     right: 0;
 }
 
-/*===== HOME =====*/
+/*===== Home =====*/
 .home{
     height: calc(100vh - 3rem);
     row-gap: 1rem;
@@ -227,7 +227,7 @@ img{
     }
 }
 
-/*BUTTONS*/
+/*Buttons*/
 .button{
     display: inline-block;
     background-color: var(--first-color);
@@ -241,7 +241,7 @@ img{
     }
 }
 
-/* ===== ABOUT =====*/
+/* ===== About =====*/
 .about{
     &__container{
         row-gap: 2rem;
@@ -261,7 +261,7 @@ img{
     }
 }
 
-/* ===== SKILLS =====*/
+/* ===== Skills =====*/
 .skills{
     &__container{
         row-gap: 2rem;
@@ -318,7 +318,7 @@ img{
         border-radius: .5rem;
     }
 }
-/* ===== WORK =====*/
+/* ===== Work =====*/
 .work{
     &__container{
         row-gap: 2rem;
@@ -361,7 +361,7 @@ img{
     }
 }
 
-/* ===== FOOTER =====*/
+/* ===== Footer =====*/
 .footer{
     background-color: var(--second-color);
     color: #fff;
@@ -383,7 +383,7 @@ img{
     }
 }
 
-/* ===== MEDIA QUERIES=====*/
+/* ===== Media Queries=====*/
 @media screen and(min-width: 768px){
     body{
         margin: 0;
