@@ -6,11 +6,12 @@
   --font-semi: 600;
 }
 
-/*===== Colors =====*/
+/*===== Colors =====
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
 }
+*/
 
 /*===== Poppin =====*/
 :root{
@@ -526,8 +527,8 @@ img{
   position: absolute;
   right: 0;
   top: 0;
-  margin-left: 10px;
-  margin-right: -10px;
+  margin-left: -100px;
+  margin-right: 100px;
   transition: .4s;
 }
 .slider:before {
