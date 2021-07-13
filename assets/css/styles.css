@@ -128,10 +128,8 @@ a{
 }
 img{
   max-width: 100%;
-  margin-top: -20rem;
   height: auto;
-  display: flex;
-  margin-left: -20px;
+  display: block;
 }
 
 .home__social-icon{
