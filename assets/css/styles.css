@@ -311,7 +311,6 @@ img{
 .about__img img{
   width: 200px;
   border-radius: .5rem;
-  margin-left: 0px;
 }
 
 /* ===== Skills=====*/
@@ -385,7 +384,6 @@ img{
 .work__img img{
   transition: 1s;
   cursor: pointer;
-  margin-left: 0px;;
 }
 .work__img img:hover{
   transform: scale(1.1);
