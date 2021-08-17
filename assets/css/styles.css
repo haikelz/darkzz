@@ -502,8 +502,8 @@ img{
 
 .theme-switch-wrapper {
   display: flex;
-  align-items: center;
-  margin-right: -130px;
+  align-items: flex-end;
+  margin-right: -105px;
   margin-left: 100px;
   
   em {
