@@ -227,10 +227,25 @@ img{
   left: 0;
   top: 2rem;
   color: var(--link-color);
+  animation: muter .7s;
+}
+@keyframes muter {
+  0% {
+    width: 0%; 
+  }
+  
+  100% {
+    width: 100%; 
+  }
 }
 .nav__logo{
   color: var(--font-color);
 }
+
+.nav__logo:hover {
+  color: #ffd803; 
+  transition: .7s; 
+  
 .nav__toggle{
   color: var(--font-color);
   font-size: 1.5rem;
