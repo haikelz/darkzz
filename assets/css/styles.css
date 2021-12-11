@@ -245,7 +245,7 @@ img{
 .nav__logo:hover {
   color: #ffd803; 
   transition: .7s; 
-  
+}
 .nav__toggle{
   color: var(--font-color);
   font-size: 1.5rem;
