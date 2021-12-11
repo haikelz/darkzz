@@ -293,6 +293,10 @@ img{
   width: 295px;
 }
 
+.haikelz:hover {
+  background-color: blue;
+}
+
 /*Buttons*/
 .button{
   display: inline-block;
