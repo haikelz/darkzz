@@ -231,11 +231,6 @@ img{
 .nav__logo{
   color: var(--font-color);
 }
-
-.nav__logo:hover {
-  color: var(--link-color); 
-  transition: 1s;
-}
 .nav__toggle{
   color: var(--font-color);
   font-size: 1.5rem;
