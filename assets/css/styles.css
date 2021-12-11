@@ -288,6 +288,10 @@ img{
   width: 295px;
 }
 
+.haikelz {
+  color: var(--font-color);
+}
+
 .haikelz:hover {
   color: blue;
   transition: 1s; 
