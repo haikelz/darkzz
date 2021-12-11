@@ -217,6 +217,7 @@ img{
 }
 .nav__link:hover{
   position: relative;
+  transition: .3s; 
 }
 .nav__link:hover::after{
   position: absolute;
@@ -229,6 +230,11 @@ img{
 }
 .nav__logo{
   color: var(--font-color);
+}
+
+.nav__logo:hover {
+  background-color: var(--link-color); 
+  transition: .3s;
 }
 .nav__toggle{
   color: var(--font-color);
@@ -278,6 +284,7 @@ img{
 }
 .home__social-icon:hover{
   color: var(--first-color);
+  transition: .3s;
 }
 .home__img{
   position: absolute;
@@ -297,6 +304,8 @@ img{
 }
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  background: rgba(255, 110, 108); 
+  transition: 0.3s; 
 }
 
 /* ===== About =====*/
