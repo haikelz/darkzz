@@ -289,7 +289,8 @@ img{
 }
 
 .haikelz:hover {
-  background-color: blue;
+  color: blue;
+  transition: 1s; 
 }
 
 /*Buttons*/
