@@ -231,6 +231,7 @@ img{
 
 .nav__logo{
   color: var(--font-color);
+  font-weight: 700;
 }
 
 .nav__logo:hover {
